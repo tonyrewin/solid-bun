@@ -1,5 +1,12 @@
 {
-    "include": [
-        "src/global.d.ts"
-    ]
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "module": "esnext",
+    "target": "esnext",
+    "types": ["bun-types"]
+  },
+  "include": [
+    "src/global.d.ts",
+    "src/**/*.{ts|tsx}"
+  ]
 }

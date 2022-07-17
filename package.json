@@ -7,8 +7,9 @@
     "build": "bun build"
   },
   "devDependencies": {
-    "@types/node": "^8.0.27",
+    "bun-types": "^0.0.83",
     "solid-js": "latest",
+    "solid-utils": "latest",
     "typescript": "latest"
   }
 }
