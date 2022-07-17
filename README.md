@@ -1,13 +1,13 @@
-# React with Bun runtime
+# Solid with Bun runtime
 
-This is a React project bootstrapped with [bun](https://bun.sh/).
+This is a [solidjs](https://github.com/solidjs/solid) project bootstrapped with [bun](https://bun.sh/).
 
 ## Getting Started
 
 ### Cloning the repo
 
 ```sh
-bun create react ./react-bun-app
+bun create solidjs ./solidjs-bun-app
 ```
 
 ### Development
@@ -20,5 +20,5 @@ bun dev
 
 Open http://localhost:3000 with your browser to see the result.
 
-You can start editing the page by modifying src/App.jsx. The page auto-updates as you edit the file.
+You can start editing the page by modifying src/App.tsx. The page auto-updates as you edit the file.
 

@@ -1,20 +1,14 @@
 {
-  "name": "app",
-  "version": "0.0.49",
-  "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "web-vitals": "^1.0.1"
-  },
-  "scripts": {},
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "name": "@bun-examples/solidjs",
+  "version": "0.0.2",
+  "license": "MIT",
+  "scripts": {
+    "dev": "bun dev",
+    "build": "bun build"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "react-refresh": "0.10.0"
+    "@types/node": "^8.0.27",
+    "solid-js": "latest",
+    "typescript": "latest"
   }
 }
